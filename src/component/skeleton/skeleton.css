@@ -1,0 +1,269 @@
+.skeleton{
+    padding: 0.3rem 1rem;
+    position: relative;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+
+/*Skeleton-item------------------------------------------------------------------*/
+
+
+.skeleton-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: 3.3rem;
+}
+
+.skeleton .thumbnail {
+    width: 9rem;
+    height: 9rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+
+.skeleton .text-lg {
+    width: 10rem;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+.skeleton .text-md {
+    width: 50%;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    height: 1rem;
+}
+
+
+/*Skeleton-store--------------------------------------------------------*/
+
+
+.skeleton-store {
+    height: 11rem;
+    width: 25rem;
+    display: flex;
+    
+}
+
+.skeleton .icon {
+    margin-top: 2rem;
+    width: 5rem;
+    height: 5rem;
+    background: #D2DBE2;
+    border-radius: 50%;
+}
+
+
+.skeleton .store-d1{
+    width: 100%;
+    height: 0.5rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+.skeleton .store-d2{
+    width: 97%;
+    height: 0.3rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+.skeleton .store-d3{
+    width: 30%;
+    height: 0.3rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+.skeleton .store-d4{
+    width: 40%;
+    height: 0.3rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+.skeleton .store-d5{
+    width: 40%;
+    height: 0.3rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+.skeleton .store-d6{
+    width: 20%;
+    height: 0.3rem;
+    background: #D2DBE2;
+    border-radius: 7px;
+}
+
+
+/*Skeleton-sidemenu--------------------------------------------------------*/
+
+
+.skeleton-sidemenu {
+    width: 15rem;
+    position: fixed;
+    margin-top: 5rem;
+    margin-left: 1rem;
+  
+}
+
+.skeleton .store-icon{
+    width: 6rem;
+    height: 6rem;
+    background: #D2DBE2;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.skeleton .sidemenu-storedetail1{
+   
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 9rem;
+    height: 0.5rem;
+}
+.skeleton .sidemenu-storedetail2{
+   
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 7rem;
+    height: 0.5rem;
+}
+
+.skeleton .sidemenu-storedetail3{
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 11rem;
+    height: 0.5rem;
+}
+
+.skeleton .sidemenu-storedetails{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 10rem;
+    height: 0.5rem;
+}
+
+
+/*skeleton-cart--------------------------------------------------------*/
+
+
+
+.skeleton-cart{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.skeleton .cartitem-icon{
+    width: 3rem;
+    height: 3rem;
+    background: #D2DBE2;
+    border-radius: 50%;
+}
+
+.skeleton .cart-detail1{
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 7rem;
+    height: 1rem;
+}
+
+.skeleton .cart-detail2{
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 10rem;
+    height: 1rem;
+    margin-top: -1rem;
+}
+
+.skeleton .cart-detail3{
+    margin-left: 1rem;
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.skeleton .cart-detail4{
+    vertical-align: middle;
+    background-color: #D2DBE2;
+    border-radius: 7px;
+    width: 5rem;
+    height: 1.5rem;
+}
+
+
+/*Neighborhood skeleton---------------------------------------------*/
+
+.skeleton-neighbor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.skeleton .neighbor-icon{
+    width: 6rem;
+    height: 6rem;
+    background: #D2DBE2;
+    border-radius: 12px;
+}
+
+.skeleton .neighbor-name{
+    width: 4rem;
+    height: 0.5rem;
+    background: #D2DBE2;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+
+/*NewOrder skeleton---------------------------------------------*/
+
+.skeleton-neworder{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.skeleton .neworder-icon{
+    width: 6rem;
+    height: 6rem;
+    background: #D2DBE2;
+    border-radius: 50%;
+}
+
+.skeleton .neworder-name{
+    width: 3rem;
+    height: 0.5rem;
+    background: #D2DBE2;
+    border-radius: 10px;
+   
+    
+}
+
+.skeleton .neworder-name2{
+    width: 6rem;
+    height: 0.5rem;
+    background: #D2DBE2;
+    border-radius: 10px;
+    text-align: center;
+   
+}

@@ -1,0 +1,59 @@
+.prefer {
+    margin-left: 1rem;
+    border: none;
+
+    .dropdown {
+        width: 20rem;
+        user-select: none;
+        margin-top: 0.5rem;
+        height: 3rem;
+        text-align: center;
+
+        .dropdown-btn {
+            font-size: 1.5rem;
+            height: 3rem;
+            color: rgb(52, 53, 56);
+            display: flex;
+            align-items: center;
+            background-color: rgb(246, 247, 248);
+            border-radius: 18px;
+            cursor: pointer;
+            width: auto;
+
+            .count {
+                display: flex;
+                margin-left: 9.2rem;
+
+                .arrow {
+                    margin-left: 8rem;
+                    margin-top: 0.3rem;
+                }
+            }
+        }
+
+        .drop-content {
+            margin-top: 2rem;
+            z-index: 2;
+            position: absolute;
+            padding: 15px;
+            width: 20rem;
+            box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+            border-radius: 12px;
+            background-color: rgb(255, 255, 255);
+            color: #999;
+
+            .dropped-item {
+                padding: 10px;
+                cursor: pointer;
+                font-size: 14px;
+                transition: all 0.2s;
+                width: auto;
+
+                &:hover {
+                    background-color: rgb(41, 169, 41);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.side-menu::-webkit-scrollbar{
+    width: 2px;
+}
+
+.side-menu::-webkit-scrollbar-thumb{
+    background-color: rgb(241, 237, 237);
+}
+
+.detail{
+
+    &:hover{
+        background-color:rgb(241, 237, 237);
+        height: 3rem;
+        width: 13rem;
+        border-radius: 12px;
+        padding: 0.5rem 0.5rem;
+        margin-top: 0.5rem;
+}
+}

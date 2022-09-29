@@ -1,0 +1,47 @@
+.vegetableslist{
+    .vl-header{
+        .paginationbuttons{
+            padding: 1rem 0.5rem;
+            width:5rem;
+            height: 0.5rem;
+            list-style: none;
+            display: flex;
+            cursor: pointer;
+        }
+        .nextbutton{
+            color: rgb(52, 53, 56);;
+            padding-top: 0.5rem;
+            padding-left: 0.9rem;
+            padding-right: 0.9rem;
+            padding-bottom: 0.5rem;
+            border-radius: 50%;
+            border: none;
+            font-size: 1.5rem;
+            background-color: rgb(232, 233, 235);
+            height: 1rem;
+            width: 1rem;
+            
+            &:hover{
+                background-color: rgb(10, 173, 10);
+                border: 1px solid rgb(10, 173, 10);
+                color: white;
+            }
+        }
+
+        .prevoious{
+             height: 2rem;
+             width: 2rem;
+        }
+
+       .paginationActive{
+           visibility: hidden;
+       }
+       .page{
+           visibility: hidden;
+       }
+        }
+
+
+    }
+
+

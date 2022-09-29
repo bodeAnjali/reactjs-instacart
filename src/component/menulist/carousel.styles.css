@@ -1,0 +1,10 @@
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.rec.rec-arrow{
+    background-color:#f5f6f7;  
+}
+.rec-dot{
+    visibility: hidden;
+}

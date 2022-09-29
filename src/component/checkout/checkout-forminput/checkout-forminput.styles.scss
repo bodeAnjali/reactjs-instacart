@@ -1,0 +1,75 @@
+$sub-color: grey;
+
+@mixin shrinkLabel {
+  top: -2px;
+  font-size: 12px;
+  color: rgb(93, 180, 93);
+  margin-top: 0.3rem;
+}
+
+.checkout-form {
+  position: relative;
+  margin: 1rem 0;
+
+  .checkout-form-input {
+    background: none;
+    color: $sub-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 70%;
+    height: 3.3rem;
+    border: 1px solid rgb(189, 189, 189);
+    margin-left: 0.5rem;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid rgb(98, 168, 98) ;
+    }
+
+    &:focus ~ .checkout-forminput-label {
+      @include shrinkLabel();
+    }
+  }
+
+  .zip {
+    background: none;
+    color: $sub-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 20%;
+    height: 3.3rem;
+    border: 1px solid rgb(189, 189, 189);
+    margin-left: 0.5rem;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid rgb(98, 168, 98) ;
+    }
+
+    &:focus ~ .checkout-forminput-label {
+      @include shrinkLabel();
+    }
+  }
+
+  .checkout-forminput-label {
+    color: $sub-color;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    letter-spacing: 1px;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+
+    &.shrink {
+      @include shrinkLabel();
+    }
+  }
+}

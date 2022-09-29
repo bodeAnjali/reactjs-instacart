@@ -1,0 +1,45 @@
+.refer{
+    display: flex;
+    height: 10rem;
+    width: 77rem;
+    border-radius: 20px;
+    
+    justify-content: center;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+
+    .refer-details{
+        z-index:1;
+        padding-right: 65rem;
+        padding-top: 1.2;
+        margin-left: 2.5rem;
+
+        .name{
+            margin-bottom: 3.5rem;
+            width: 25rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-left: 15rem;
+            margin-top: 1rem;
+        }
+
+        .refer-friends{
+            color: white;
+            border-radius: 25px;
+            background-color: green;
+            font-size: 0.9rem;
+            font-weight: 800;
+            padding:0.5rem 0.5rem;
+            margin-left: 15rem;
+           
+        }
+    }
+    img{
+        position: absolute;
+        z-index: -1;
+        width: 77rem;
+        height:10rem;
+        border-radius: 20px;
+    }
+}
